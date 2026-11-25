@@ -1,6 +1,428 @@
 {
   "schema": 1,
-  "publishedAt": null,
-  "edition": "",
-  "articles": []
+  "publishedAt": "2026-11-25T19:40:00-03:00",
+  "edition": "Tarde",
+  "articles": [
+    {
+      "id": "emae-septiembre-2026",
+      "category": "Economía",
+      "title": "La actividad económica cayó 1,2% interanual en septiembre y subió 1,1% frente a agosto",
+      "dek": "El INDEC publicó la estimación preliminar del mes. Los datos mensuales muestran una contracción en el tercer trimestre, aunque todavía falta la estimación trimestral del PBI.",
+      "summary": [
+        "El EMAE de septiembre fue 1,2% inferior al de septiembre de 2025.",
+        "El indicador desestacionalizado aumentó 1,1% respecto de agosto.",
+        "Diez de los quince sectores registraron bajas interanuales; los datos del PBI trimestral aún no están disponibles."
+      ],
+      "body": [
+        "El Instituto Nacional de Estadística y Censos difundió el 24 de noviembre su informe sobre la actividad económica de septiembre. El indicador mensual quedó por debajo del nivel de un año antes, a pesar de recuperarse respecto de agosto. La medición que procura identificar la tendencia subyacente permaneció estable.",
+        "El informe muestra diferencias entre ramas de actividad. La minería creció 11,1% interanual y la construcción, 3,5%. En cambio, la intermediación financiera bajó 11,5% y la industria manufacturera, 1,8%.",
+        "Chequeado y Diario Río Negro interpretaron la trayectoria de los datos como una señal de recesión técnica. Es importante distinguir esa lectura del dato definitivo del producto bruto interno: el informe del INDEC aclara que todavía no cuenta con la estimación trimestral correspondiente.",
+        "La comparación mensual y la interanual responden a preguntas distintas. Una mejora frente al mes anterior no implica necesariamente que la economía haya recuperado el nivel de doce meses atrás."
+      ],
+      "sources": [
+        {
+          "name": "INDEC",
+          "title": "Estimador mensual de actividad económica. Septiembre de 2026",
+          "url": "https://www.indec.gob.ar/uploads/informesdeprensa/emae_11_26C3D902DB86.pdf",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "Chequeado",
+          "title": "El INDEC confirmó que la economía de Milei está en recesión: qué significa esto",
+          "url": "https://chequeado.com/el-explicador/el-indec-confirmo-que-la-economia-de-milei-esta-en-recesion-que-significa-esto/",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "Diario Río Negro",
+          "title": "Argentina entró en recesión técnica: el Indec informó que la actividad económica acumuló dos trimestres en caída",
+          "url": "https://www.rionegro.com.ar/economia/argentina-entro-en-recesion-tecnica-el-indec-informo-que-la-actividad-economica-acumulo-dos-trimestres-en-caida-4811740/",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "Infobae",
+          "title": "La actividad económica registró dos trimestres de caída y Argentina entró en recesión",
+          "url": "https://www.infobae.com/economia/2026/11/24/la-actividad-economica-registro-dos-trimestres-de-caida-y-argentina-entro-en-recesion/",
+          "date": "2026-11-24"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Buenos_Aires_Calle_Florida.jpg",
+        "caption": "Calle Florida, zona comercial de Buenos Aires, en 2018. Imagen de contexto.",
+        "credit": "Andrzej Otrębski",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Buenos_Aires_Calle_Florida.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "archive": true
+      }
+    },
+    {
+      "id": "brasil-bitelli-noviembre-2026",
+      "category": "Relaciones exteriores",
+      "title": "Brasil decidió que su embajador Julio Bitelli no regresará a la Argentina",
+      "dek": "La embajada brasileña continuará funcionando con un encargado de negocios, en medio de tensiones entre ambos gobiernos.",
+      "summary": [
+        "Agência Brasil informó que el diplomático no volverá a ocupar su puesto en Buenos Aires.",
+        "La representación diplomática seguirá funcionando con un encargado de negocios.",
+        "La decisión se produce tras desacuerdos públicos sobre las elecciones brasileñas."
+      ],
+      "body": [
+        "El gobierno brasileño resolvió que Julio Bitelli no vuelva a desempeñarse como embajador en la Argentina, según informó la agencia pública de noticias de Brasil el miércoles 25 de noviembre. Medios argentinos también dieron cuenta de la decisión.",
+        "El diplomático había sido retirado en agosto, en el contexto de los desencuentros entre las administraciones de Javier Milei y Luiz Inácio Lula da Silva. Agência Brasil vinculó la decisión más reciente con las declaraciones del canciller argentino Pablo Quirno sobre los comicios brasileños.",
+        "El funcionamiento de la embajada mediante un encargado de negocios no supone, por sí solo, la ruptura de relaciones diplomáticas. Tampoco permite anticipar un cambio en el comercio bilateral. Brasil es un socio comercial central de la Argentina."
+      ],
+      "sources": [
+        {
+          "name": "Agência Brasil",
+          "title": "Brasil decide que embaixador não deve mais voltar à Argentina de Milei",
+          "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/brasil-decide-que-embaixador-nao-deve-mais-voltar-argentina-de-milei",
+          "date": "2026-11-25"
+        },
+        {
+          "name": "El Zonda",
+          "title": "Brasil mantiene a su embajada en Buenos Aires con un encargado de negocios",
+          "url": "https://www.diarioelzondasj.com.ar/politica/brasil-mantiene-a-su-embajada-en-buenos-aires-con-un-encargado-de-negocios",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "Política Argentina",
+          "title": "Mercosur: Milei y Lula se podrían volver a cruzar en medio de la crisis diplomática con Brasil",
+          "url": "https://www.politicargentina.com/notas/202611/77296-mercosur-milei-y-lula-se-podrian-volver-a-cruzar-en-medio-de-la-crisis-diplomatica-con-brasil.html",
+          "date": "2026-11-25"
+        },
+        {
+          "name": "El País",
+          "title": "Brasil retira a su embajador en Argentina en rechazo a los insultos de Milei contra Lula",
+          "url": "https://elpais.com/argentina/2026-08-05/brasil-retira-a-su-embajador-en-argentina-en-rechazo-a-los-insultos-de-milei-contra-lula.html",
+          "date": "2026-08-05"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Embaixadabrasilbuenosaires.jpg",
+        "caption": "Sede de la embajada brasileña en Buenos Aires, fotografiada en 2006.",
+        "credit": "Carlos Rios",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Embaixadabrasilbuenosaires.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "archive": true
+      }
+    },
+    {
+      "id": "santilli-informe-146-senado",
+      "category": "Congreso",
+      "title": "Diego Santilli presentó su primer informe de gestión ante el Senado",
+      "dek": "El jefe de Gabinete expuso la gestión del Ejecutivo y respondió preguntas de los legisladores.",
+      "summary": [
+        "La presentación se realizó el miércoles 25 de noviembre en la Cámara alta.",
+        "Los senadores plantearon consultas sobre economía, tarifas y políticas públicas.",
+        "El informe de gestión número 146 incluye respuestas escritas a más de 1.200 preguntas."
+      ],
+      "body": [
+        "Diego Santilli se presentó este miércoles ante el Senado en su carácter de jefe de Gabinete. Fue su primera exposición de gestión en esa cámara desde que asumió el cargo. Los legisladores de distintos bloques tuvieron la posibilidad de plantear preguntas sobre las decisiones del Ejecutivo.",
+        "Según las coberturas de la sesión, el funcionario defendió la política económica del Gobierno y destacó las exportaciones y el régimen de incentivos a las inversiones. La oposición presentó cuestionamientos sobre la situación económica y asuntos provinciales.",
+        "La presentación constituye una instancia de rendición de cuentas ante el Congreso. Las afirmaciones realizadas por el funcionario son su evaluación de la gestión y no sustituyen la comprobación independiente de los indicadores citados."
+      ],
+      "sources": [
+        {
+          "name": "LM Neuquén",
+          "title": "Sesión especial: Diego Santilli presenta su primer informe como jefe de Gabinete ante el Senado",
+          "url": "https://www.lmneuquen.com/pais/vivo-senado-diego-santilli-informe-ministerio",
+          "date": "2026-11-25"
+        },
+        {
+          "name": "DataChaco",
+          "title": "Senado: Santilli presentó su primer informe como jefe de Gabinete",
+          "url": "https://www.datachaco.com/655052-senado-santilli-presento-su-primer-informe-como-jefe-de-gabinete",
+          "date": "2026-11-25"
+        },
+        {
+          "name": "Eduardo Germán",
+          "title": "Santilli debutó en el Senado con el Informe 146",
+          "url": "https://eduardogerman.com/2026/11/25/santilli-informe-gestion-146-senado/",
+          "date": "2026-11-25"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Palacio_del_Congreso_a%C3%A9rea.jpg",
+        "caption": "Palacio del Congreso Nacional, vista aérea de 2018.",
+        "credit": "Deensel",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palacio_del_Congreso_a%C3%A9rea.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "archive": true
+      }
+    },
+    {
+      "id": "ludopatia-tratamiento-senado",
+      "category": "Congreso",
+      "title": "El Senado debatió los proyectos sobre apuestas en línea y dejó pendientes las definiciones",
+      "dek": "Oficialismo y oposición mantienen diferencias sobre el alcance de la regulación. El tratamiento podría continuar el jueves.",
+      "summary": [
+        "El proyecto aprobado por Diputados en 2024 todavía no es ley.",
+        "El plenario del miércoles concluyó sin dictamen, según las coberturas consultadas.",
+        "Las negociaciones incluyen diferencias sobre publicidad, operadores autorizados y competencias provinciales."
+      ],
+      "body": [
+        "Las comisiones de Salud, Legislación General y Justicia y Asuntos Penales del Senado discutieron este miércoles las iniciativas vinculadas con la prevención de la ludopatía y las apuestas en internet. El plenario terminó sin un dictamen definitivo y los bloques acordaron continuar las negociaciones.",
+        "La propuesta que recibió media sanción de Diputados en 2024 contempla restricciones a la publicidad y al acceso de menores, entre otras medidas. Chequeado explicó que la iniciativa del Ejecutivo se concentra principalmente en operadores sin autorización y preserva competencias de las provincias respecto de los habilitados.",
+        "La falta de una decisión mantiene abierta la posibilidad de que el proyecto reciba modificaciones y vuelva a Diputados. La discusión parlamentaria no equivale a la aprobación de una norma: el texto definitivo y su eventual sanción siguen pendientes."
+      ],
+      "sources": [
+        {
+          "name": "Chequeado",
+          "title": "Apuestas online: qué dice el proyecto de ley de ludopatía y por qué la Iglesia pidió al Congreso no dejarlo caer",
+          "url": "https://chequeado.com/el-explicador/apuestas-online-que-dice-el-proyecto-de-ley-de-ludopatia-y-por-que-la-iglesia-pidio-al-congreso-no-dejarlo-caer/",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "Eduardo Germán",
+          "title": "El Senado cerró sin dictamen el plenario de ludopatía y dejó el tratamiento para este jueves",
+          "url": "https://eduardogerman.com/2026/11/25/senado-plenario-ley-ludopatia-florencia-lopez/",
+          "date": "2026-11-25"
+        },
+        {
+          "name": "La Nación",
+          "title": "Tras la presión de la Iglesia, oficialismo y oposición acordaron avanzar con la ley contra la ludopatía",
+          "url": "https://www.lanacion.com.ar/politica/tras-la-presion-de-la-iglesia-oficialismo-y-oposicion-acordaron-avanzar-con-la-ley-contra-la-nid25112026/",
+          "date": "2026-11-25"
+        },
+        {
+          "name": "ANDigital",
+          "title": "Prevención de la ludopatía: el peronismo va a intentar que el proyecto no sufra modificaciones",
+          "url": "https://andigital.com.ar/nota/145191/prevencion-de-la-ludopatia-el-peronismo-va-a-intentar-que-el-proyecto-no-sufra-modificaciones/",
+          "date": "2026-11-25"
+        }
+      ],
+      "image": null
+    },
+    {
+      "id": "pami-autoridades-noviembre-2026",
+      "category": "Salud",
+      "title": "El Gobierno designó a Verónica Pérez y Elizabeth Osterberg al frente del PAMI",
+      "dek": "El decreto 1412/2026 oficializó el recambio de la dirección y subdirección ejecutivas de la obra social.",
+      "summary": [
+        "Verónica Gabriela Pérez fue nombrada directora ejecutiva.",
+        "Elizabeth Ana Osterberg quedó designada subdirectora ejecutiva.",
+        "Los nombramientos rigen desde el 23 de noviembre y se publicaron el día siguiente."
+      ],
+      "body": [
+        "El Poder Ejecutivo oficializó mediante el decreto 1412/2026 las nuevas autoridades del Instituto Nacional de Servicios Sociales para Jubilados y Pensionados, conocido como PAMI. La norma fue publicada el martes 24 de noviembre y establece la fecha de inicio de ambas designaciones.",
+        "Pérez sucede a Esteban Leguízamo, mientras que Osterberg reemplaza a Carlos Blas Zamparolo. El Observador informó que Pérez ya tenía experiencia en la administración pública y desempeñaba funciones jerárquicas dentro del organismo.",
+        "El recambio afecta a la conducción de la institución encargada de brindar prestaciones a jubilados y pensionados afiliados. El decreto de designación no establece por sí mismo modificaciones en la cobertura de medicamentos ni en los servicios médicos."
+      ],
+      "sources": [
+        {
+          "name": "Boletín Oficial",
+          "title": "Decreto 1412/2026: Instituto Nacional de Servicios Sociales para Jubilados y Pensionados",
+          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/350668/20261124",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "El Observador",
+          "title": "¿Quién es Verónica Pérez, la nueva directora ejecutiva del PAMI?",
+          "url": "https://www.elobservador.com/argentina/politica/quien-es-veronica-perez-la-nueva-directora-ejecutiva-del-pami-n6064913",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "Diario Crónica",
+          "title": "El Gobierno oficializó los cambios en la conducción del PAMI",
+          "url": "https://www.diariocronica.com.ar/noticias/2026/11/24/179637-el-gobierno-oficializo-los-cambios-en-la-conduccion-del-pami",
+          "date": "2026-11-24"
+        }
+      ],
+      "image": null
+    },
+    {
+      "id": "argentina-lng-rigi",
+      "category": "Energía",
+      "title": "El Gobierno aprobó la incorporación de Argentina LNG al régimen de grandes inversiones",
+      "dek": "La iniciativa de YPF, Eni y XRG prevé exportar gas natural licuado desde Río Negro. La decisión final de inversión todavía está pendiente.",
+      "summary": [
+        "El comité evaluador aprobó el ingreso del proyecto al RIGI el 20 de noviembre.",
+        "El Gobierno estima una inversión total de US$50.750 millones hasta 2050.",
+        "La firma de la decisión final de inversión está prevista para el 30 de noviembre, según la Presidencia."
+      ],
+      "body": [
+        "El proyecto Argentina LNG recibió la aprobación para ingresar al Régimen de Incentivo para Grandes Inversiones. Reuters informó la decisión el viernes 20 de noviembre, y la Presidencia volvió a comunicarla en la conferencia del vocero del martes 24.",
+        "La iniciativa está impulsada por YPF, la italiana Eni y la emiratí XRG. Su objetivo es transportar gas proveniente de Vaca Muerta hacia la costa de Río Negro para procesarlo y exportarlo como gas natural licuado.",
+        "La cifra de US$50.750 millones corresponde a inversiones proyectadas a largo plazo, no a desembolsos ya realizados. El vocero presidencial señaló que el próximo paso es la decisión final de inversión, prevista para el lunes 30. El cronograma y los resultados efectivos dependerán de la ejecución del proyecto."
+      ],
+      "sources": [
+        {
+          "name": "Casa Rosada",
+          "title": "Conferencia de prensa del Vocero Presidencial, Adrián Ravier, 24-11-2026",
+          "url": "https://www.casarosada.gob.ar/informacion/conferencias/51442-conferencia-de-prensa-del-vocero-presidencial-adrian-ravier-desde-casa-rosada-24-11-2026",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "Reuters",
+          "title": "Argentina approves incentive scheme for $50.8 billion LNG project",
+          "url": "https://www.reuters.com/business/energy/argentina-approves-incentive-scheme-508-billion-lng-project-2026-11-20/",
+          "date": "2026-11-20"
+        },
+        {
+          "name": "Diario Río Negro",
+          "title": "Aprobaron el RIGI para Argentina LNG por US$ 50.750 millones",
+          "url": "https://www.rionegro.com.ar/energia/aprobaron-el-rigi-para-argentina-lng-por-us-50-750-millones-la-mayor-inversion-privada-de-la-historia-del-pais-4807121/",
+          "date": "2026-11-20"
+        }
+      ],
+      "image": null
+    },
+    {
+      "id": "bahia-blanca-dragado",
+      "category": "Infraestructura",
+      "title": "Buenos Aires anunció la profundización del canal de acceso al puerto de Bahía Blanca",
+      "dek": "La obra busca ampliar la capacidad de carga de buques petroleros que operan en el estuario.",
+      "summary": [
+        "El anuncio fue realizado por el gobernador Axel Kicillof el 25 de noviembre.",
+        "El proyecto prevé aumentar el calado operativo de 45 a 51,5 pies en sectores del canal.",
+        "La Provincia informó una inversión de alrededor de US$200 millones para la iniciativa."
+      ],
+      "body": [
+        "El gobernador bonaerense anunció en Bahía Blanca la obra de profundización del acceso marítimo al complejo portuario. Participaron autoridades municipales y del consorcio de gestión del puerto.",
+        "Según el gobierno provincial, la intervención busca que los buques petroleros de mayor capacidad puedan operar con cargas completas, con el objetivo de mejorar la logística del crudo que llega desde Vaca Muerta. El medio especializado ArgenPorts indicó que la profundización forma parte de una licitación que también contempla tareas de mantenimiento.",
+        "La cifra anunciada por la Provincia corresponde al alcance comunicado de la iniciativa. ArgenPorts identificó un presupuesto de hasta US$97 millones para el componente específico de profundización. Ambas cifras deben distinguirse: no son necesariamente el costo de la misma partida. La obra fue anunciada, no concluida."
+      ],
+      "sources": [
+        {
+          "name": "Provincia de Buenos Aires",
+          "title": "Kicillof anunció la obra de profundización del calado del estuario de Bahía Blanca",
+          "url": "https://gba.gob.ar/comunicacion_publica/gacetillas/kicillof_anunci%C3%B3_la_obra_de_profundizaci%C3%B3n_del_calado_del_estuario",
+          "date": "2026-11-25"
+        },
+        {
+          "name": "ArgenPorts",
+          "title": "Kicillof llega al Puerto de Bahía Blanca para anunciar la profundización del canal de acceso",
+          "url": "https://argenports.com/nota/kicillof-llega-al-puerto-de-bahia-blanca-para-anunciar-la-profundizacion-del-canal-de-acceso/",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "La Nueva",
+          "title": "Susbielles: El dragado pone a los puertos de Bahía y Rosales más competitivos que nunca",
+          "url": "https://www.lanueva.com/puntaalta/nota/2026-11-25-15-38-0-susbielles-el-dragado-pone-a-los-puertos-de-bahia-y-rosales-mas-competitivos-que-nunca",
+          "date": "2026-11-25"
+        }
+      ],
+      "image": null
+    },
+    {
+      "id": "acuerdos-aerocomerciales-japon-australia",
+      "category": "Transporte",
+      "title": "Argentina anunció nuevos acuerdos aerocomerciales con Japón y Australia",
+      "dek": "Los convenios flexibilizan las condiciones para operar vuelos de pasajeros y carga. No implican el inicio inmediato de nuevas rutas.",
+      "summary": [
+        "La firma de los acuerdos fue comunicada por el Gobierno el 24 de noviembre.",
+        "El convenio con Japón amplía los aeropuertos habilitados, excepto Tokio-Haneda.",
+        "El acuerdo con Australia amplía gradualmente la capacidad de pasajeros y elimina límites de frecuencias para carga."
+      ],
+      "body": [
+        "La Presidencia anunció dos convenios bilaterales que amplían las posibilidades de operación aérea entre Argentina, Japón y Australia. Según el vocero presidencial, con estas incorporaciones el país suma 74 acuerdos en el marco de su política aerocomercial.",
+        "Aviacionline señaló que el documento con Japón se firmó durante una conferencia de la Organización de Aviación Civil Internacional en Montreal y que permite operar con aeronaves propias en servicios de pasajeros y carga. El medio había informado previamente sobre el acuerdo a partir de documentación japonesa.",
+        "En el caso australiano, el marco prevé una ampliación progresiva de los servicios para pasajeros y mayor libertad para los vuelos de carga. La aplicación práctica depende de las decisiones comerciales de las aerolíneas, los permisos correspondientes y las condiciones de cada ruta. Los acuerdos no garantizan vuelos directos ni reducciones de tarifas."
+      ],
+      "sources": [
+        {
+          "name": "Casa Rosada",
+          "title": "Conferencia de prensa del Vocero Presidencial, 24-11-2026",
+          "url": "https://www.casarosada.gob.ar/informacion/conferencias/51442-conferencia-de-prensa-del-vocero-presidencial-adrian-ravier-desde-casa-rosada-24-11-2026",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "Aviacionline",
+          "title": "Argentina firma acuerdos aerocomerciales con Japón y Australia y llega a 74 convenios bilaterales",
+          "url": "https://www.aviacionline.com/espanol/aviacion-comercial/latinoamerica-y-el-caribe/argentina/argentina-firma-acuerdos-aerocomerciales-con-japon-y-australia-y-llega-a-74-convenios-bilaterales_a6b05de9fcd25aee2889a8f85",
+          "date": "2026-11-24"
+        },
+        {
+          "name": "El Argentino Diario",
+          "title": "Cielos Abiertos: el Gobierno firmó acuerdos con Japón y Australia",
+          "url": "https://elargentinodiario.com.ar/zona-destacada/24/11/2026/cielos-abiertos-el-gobierno-firmo-acuerdos-con-japon-y-australia/",
+          "date": "2026-11-24"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Play%C3%B3n_de_maniobras_en_hangares_Aerol%C3%ADneas_Argentinas_en_Ezeiza.jpg",
+        "caption": "Playón de maniobras de Aerolíneas Argentinas en Ezeiza, 2019. Imagen de contexto.",
+        "credit": "Goldinalejandro",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Play%C3%B3n_de_maniobras_en_hangares_Aerol%C3%ADneas_Argentinas_en_Ezeiza.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "archive": true
+      }
+    },
+    {
+      "id": "padron-provisorio-2027",
+      "category": "Información electoral",
+      "title": "La consulta del padrón provisorio para las elecciones de 2027 vence el 30 de noviembre",
+      "dek": "La Cámara Nacional Electoral habilitó una revisión anticipada para corregir errores u omisiones en el registro.",
+      "summary": [
+        "La consulta está disponible hasta el lunes 30 de noviembre inclusive.",
+        "Se puede comprobar la inclusión en el registro y los datos electorales.",
+        "No es la asignación definitiva de establecimiento y mesa de votación."
+      ],
+      "body": [
+        "La consulta extraordinaria del padrón provisorio para 2027 continúa habilitada durante los últimos días de noviembre. La Cámara Nacional Electoral abrió el proceso a comienzos del mes para que las personas puedan advertir posibles errores antes del año electoral.",
+        "El trámite se realiza en padron.gob.ar con los datos que solicita el sistema. Según las coberturas de La Nación y Página/12, la información incluye la sección y el circuito electoral, pero no el domicilio del elector.",
+        "La revisión es especialmente pertinente para quienes votarán por primera vez o hayan detectado errores en su inscripción. Esta publicación anticipada no reemplaza el padrón definitivo ni determina todavía el establecimiento en el que deberá votar cada persona."
+      ],
+      "sources": [
+        {
+          "name": "La Nación",
+          "title": "Dónde voto: publicaron el padrón provisorio para las elecciones de Argentina 2027",
+          "url": "https://www.lanacion.com.ar/politica/donde-voto-publicaron-el-padron-provisorio-para-las-elecciones-de-argentina-2027-nid02112026/",
+          "date": "2026-11-25"
+        },
+        {
+          "name": "Página/12",
+          "title": "Elecciones 2027: ya se puede consultar el padrón provisorio",
+          "url": "https://www.pagina12.com.ar/2026/11/02/elecciones-2027-ya-se-puede-consultar-el-padron-provisorio/",
+          "date": "2026-11-02"
+        },
+        {
+          "name": "Noticias Argentinas",
+          "title": "Padrón electoral 2027: cómo consultar dónde voto y hasta cuándo se puede reclamar",
+          "url": "https://noticiasargentinas.com/politica/padron-electoral-2027--como-consultar-donde-voto-y-hasta-cuando-se-puede-reclamar_a6ae8e426fd3588a0f5cb4e8a",
+          "date": "2026-11-02"
+        }
+      ],
+      "image": null
+    },
+    {
+      "id": "neuquen-haberes-noviembre",
+      "category": "Provincias",
+      "title": "Neuquén anunció el pago de los haberes estatales de noviembre con un aumento del 4%",
+      "dek": "La administración provincial informó que los salarios se acreditarán el viernes 27 de noviembre.",
+      "summary": [
+        "La fecha anunciada es el viernes 27 de noviembre.",
+        "El incremento del 4% forma parte de las negociaciones paritarias de julio.",
+        "El cronograma alcanza a trabajadores estatales y beneficiarios del sistema previsional provincial."
+      ],
+      "body": [
+        "El Gobierno de Neuquén comunicó este miércoles el cronograma salarial para noviembre. Según la información oficial, el pago de los haberes de la administración provincial se realizará el viernes 27 en una única jornada.",
+        "La provincia señaló que los salarios incorporarán una suba del 4%, acordada en julio con las organizaciones sindicales que participaron de la negociación. Diario Río Negro y medios provinciales difundieron la información.",
+        "El anuncio se refiere a los trabajadores y beneficiarios comprendidos en el esquema provincial, no a todos los asalariados de Neuquén ni a los empleados nacionales. Al cierre de esta edición, se trata de una acreditación prevista para el viernes."
+      ],
+      "sources": [
+        {
+          "name": "Neuquén Informa",
+          "title": "Provincia pagará con aumento los haberes de noviembre a los trabajadores del Estado",
+          "url": "https://www.neuqueninforma.gob.ar/noticias/2026/11/25/267819-provincia-pagara-con-aumento-los-haberes-de-noviembre-a-los-trabajadores-del-estado",
+          "date": "2026-11-25"
+        },
+        {
+          "name": "Diario Río Negro",
+          "title": "Fecha de cobro para estatales de Neuquén: Provincia paga noviembre 2026 este viernes 27 con aumento",
+          "url": "https://www.rionegro.com.ar/economia/fecha-de-cobro-para-estatales-de-neuquen-provincia-paga-noviembre-2026-este-viernes-27-con-aumento-4812387/",
+          "date": "2026-11-25"
+        },
+        {
+          "name": "NoticiasNQN",
+          "title": "Neuquén pagará el viernes 27 los salarios de noviembre con un aumento del 4%",
+          "url": "https://www.noticiasnqn.com.ar/noticias/2026/11/25/362223-neuquen-pagara-el-viernes-27-los-salarios-de-noviembre-con-un-aumento-del-4por_ciento",
+          "date": "2026-11-25"
+        }
+      ],
+      "image": null
+    }
+  ]
 }
