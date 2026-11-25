@@ -14,7 +14,33 @@ function render(){view.replaceChildren();if(!edition){const e=el("div","empty");
 if(!edition.articles.length){const e=el("div","empty");e.append(el("h1",null,"La primera edición está en preparación"),el("p",null,"Las noticias aparecerán acá cuando se complete la investigación y verificación de las fuentes."));view.append(e);return}
 const id=location.hash.slice(1);const a=edition.articles.find(n=>encodeURIComponent(n.id)===id);if(a){const article=el("article","article"),back=el("a","back","← Volver a la portada");back.href="#";article.append(back);const f=photo(a,"article-photo");if(f)article.append(f);article.append(el("div","category",a.category),el("h1",null,a.title),el("p","standfirst",a.dek),meta(a));const sum=el("section","summary"),ul=el("ul");sum.append(el("h2",null,"Si solo tenés dos minutos: tres puntos"));a.summary.forEach(s=>ul.append(el("li",null,s)));sum.append(ul);article.append(sum);const body=el("div","bodycopy");a.body.forEach(p=>body.append(el("p",null,p)));article.append(body);const sources=el("section","sources");sources.append(el("h2",null,"Fuentes consultadas"));a.sources.forEach(s=>{const l=link(s.name,s.url,"source");l.append(el("span",null,s.title+(s.date?" · "+s.date:"")));sources.append(l)});article.append(sources);view.append(article);return}
 view.append(el("h1","edition-title","La edición de hoy"));const d=el("div","edition-meta");d.append(el("span",null,date(edition.publishedAt)),el("span",null,edition.articles.length+" noticias · "+(edition.edition||"Edición")));view.append(d);const grid=el("div","story-grid");edition.articles.forEach(a=>{const story=el("article","story"),anchor=el("a");anchor.href="#"+encodeURIComponent(a.id);anchor.addEventListener("click",()=>homeScroll=window.scrollY);const f=photo(a,"cover",false);if(f)anchor.append(f);anchor.append(el("div","category",a.category),el("h2",null,a.title),el("p","standfirst",a.dek),meta(a));story.append(anchor);if(a.image){const credit=el("div","photo-credit");credit.append(document.createTextNode(a.image.archive?"Foto de archivo · ":"Foto · "),link(a.image.credit,a.image.sourceUrl),document.createTextNode(" · "),link(a.image.license,a.image.licenseUrl));story.append(credit)}grid.append(story)});view.append(grid,el("div","end","Llegaste al final de esta edición."))}
-async function load(){if(loading)return;loading=true;refresh.disabled=true;statusEl.textContent="Actualizando edición…";try{const response=await fetch("./edition.json",{cache:"no-store"});if(!response.ok)throw Error("HTTP "+response.status);const d=await response.json();if(!valid(d))throw Error("Edición inválida");offline=response.headers.get("X-NotiGalli-Offline")==="1"||!navigator.onLine;edition=d;try{localStorage.setItem("notigalli-edition",JSON.stringify(d))}catch{}statusEl.textContent=offline?"Sin conexión · última edición guardada":d.publishedAt?"Última publicación: "+date(d.publishedAt):"Argentina · próxima edición pendiente"};}catch{try{const saved=JSON.parse(localStorage.getItem("notigalli-edition"));if(valid(saved))edition=saved}catch{}statusEl.textContent=edition?"No se pudo actualizar · última edición guardada":"Edición no disponible"}finally{render();loading=false;refresh.disabled=false}}
+async function load(){
+  if(loading)return;
+  loading=true;
+  refresh.disabled=true;
+  statusEl.textContent="Actualizando edición…";
+  const controller=new AbortController();
+  const timeout=setTimeout(()=>controller.abort(),12000);
+  try {
+    const response=await fetch("./edition.json",{cache:"no-store",signal:controller.signal});
+    if(!response.ok)throw new Error("HTTP "+response.status);
+    const d=await response.json();
+    if(!valid(d))throw new Error("Edición inválida");
+    offline=response.headers.get("X-NotiGalli-Offline")==="1"||!navigator.onLine;
+    edition=d;
+    try{localStorage.setItem("notigalli-edition",JSON.stringify(d));}catch(error){}
+    statusEl.textContent=offline?"Sin conexión · última edición guardada":d.publishedAt?"Última publicación: "+date(d.publishedAt):"Argentina · próxima edición pendiente";
+  } catch(error) {
+    try{const saved=JSON.parse(localStorage.getItem("notigalli-edition"));if(valid(saved))edition=saved;}catch(storageError){}
+    statusEl.textContent=edition?"No se pudo actualizar · última edición guardada":"Edición no disponible";
+    console.warn("NotiGalli: ",error);
+  } finally {
+    clearTimeout(timeout);
+    loading=false;
+    refresh.disabled=false;
+    try{render();}catch(error){statusEl.textContent="No se pudo mostrar la edición. Volvé a intentar.";console.error(error);}
+  }
+}
 window.addEventListener("hashchange",()=>{render();window.scrollTo(0,location.hash.length>1?0:homeScroll)});
 window.addEventListener("online",load);document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")load()});refresh.addEventListener("click",load);
 if("serviceWorker"in navigator)navigator.serviceWorker.register("./sw.js").catch(()=>{});
