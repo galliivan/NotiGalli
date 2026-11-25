@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<rect width="512" height="512" fill="#c41425"/>
+<defs><path id="n" d="M95 106H213V128H196L324 286V128H290V106H417V128H379V406H341L187 216V384H221V406H95V384H132V128H95Z"/></defs>
+<use href="#n" transform="translate(15 17)" fill="#37070e"/><use href="#n" fill="#fff"/>
+</svg>
