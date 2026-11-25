@@ -1,10 +1,10 @@
 "use strict";
-const SHELL="notigalli-shell-v1",DATA="notigalli-edition-v1",IMAGES="notigalli-images-v1",BASE=self.registration.scope;
-const assets=["./","./index.html","./style.css","./app.js","./icon.svg","./manifest.webmanifest"];
+const SHELL="notigalli-shell-v2",DATA="notigalli-edition-v1",IMAGES="notigalli-images-v1",BASE=self.registration.scope;
+const assets=["./","./index.html","./style.css","./app.js?v=2","./icon.svg","./manifest.webmanifest"];
 self.addEventListener("install",e=>e.waitUntil(caches.open(SHELL).then(c=>c.addAll(assets)).then(()=>self.skipWaiting())));
 self.addEventListener("activate",e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith("notigalli-")&&![SHELL,DATA,IMAGES].includes(k)).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener("fetch",e=>{const r=e.request,u=new URL(r.url);if(r.method!=="GET")return;if(u.href===new URL("edition.json",BASE).href){e.respondWith((async()=>{const c=await caches.open(DATA);try{const response=await fetch(r);if(!response.ok)throw Error("HTTP");const d=await response.clone().json();if(d.schema!==1||!Array.isArray(d.articles)||d.articles.length>10)throw Error("Invalid");await c.put(r,response.clone());return response}catch{const cached=await c.match(r);if(!cached)return new Response("{}",{status:503});const headers=new Headers(cached.headers);headers.set("X-NotiGalli-Offline","1");return new Response(await cached.text(),{headers,status:200})}})());return}
 if(r.mode==="navigate"&&u.href.startsWith(BASE)){e.respondWith(fetch(r).catch(()=>caches.match(new URL("index.html",BASE).href)));return}
-if(u.href.startsWith(BASE)&&assets.some(p=>new URL(p,BASE).href===u.href)){e.respondWith(caches.match(r).then(c=>c||fetch(r)));return}
+if(u.href.startsWith(BASE)&&assets.some(p=>new URL(p,BASE).href===u.href)){e.respondWith(fetch(r).then(async response=>{if(!response.ok)throw Error("HTTP");const c=await caches.open(SHELL);await c.put(r,response.clone());return response}).catch(()=>caches.match(r).then(c=>c||Response.error())));return}
 if(r.destination==="image"&&u.protocol==="https:"){e.respondWith((async()=>{const c=await caches.open(IMAGES);try{const response=await fetch(r);if(response.ok||response.type==="opaque"){await c.put(r,response.clone());const keys=await c.keys();for(const k of keys.slice(0,Math.max(0,keys.length-24)))await c.delete(k)}return response}catch{return await c.match(r)||Response.error()}})())}
 });
