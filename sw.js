@@ -1,6 +1,6 @@
 "use strict";
-const SHELL="notigalli-shell-v2",DATA="notigalli-edition-v1",IMAGES="notigalli-images-v1",BASE=self.registration.scope;
-const assets=["./","./index.html","./style.css","./app.js?v=2","./icon.svg","./manifest.webmanifest"];
+const SHELL="notigalli-shell-v3",DATA="notigalli-edition-v1",IMAGES="notigalli-images-v1",BASE=self.registration.scope;
+const assets=["./","./index.html","./style.css?v=3","./app.js?v=3","./icon.svg","./manifest.webmanifest"];
 self.addEventListener("install",e=>e.waitUntil(caches.open(SHELL).then(c=>c.addAll(assets)).then(()=>self.skipWaiting())));
 self.addEventListener("activate",e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith("notigalli-")&&![SHELL,DATA,IMAGES].includes(k)).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener("fetch",e=>{const r=e.request,u=new URL(r.url);if(r.method!=="GET")return;if(u.href===new URL("edition.json",BASE).href){e.respondWith((async()=>{const c=await caches.open(DATA);try{const response=await fetch(r);if(!response.ok)throw Error("HTTP");const d=await response.clone().json();if(d.schema!==1||!Array.isArray(d.articles)||d.articles.length>10)throw Error("Invalid");await c.put(r,response.clone());return response}catch{const cached=await c.match(r);if(!cached)return new Response("{}",{status:503});const headers=new Headers(cached.headers);headers.set("X-NotiGalli-Offline","1");return new Response(await cached.text(),{headers,status:200})}})());return}
