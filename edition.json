@@ -1,8 +1,119 @@
 {
   "schema": 1,
-  "publishedAt": "2026-11-26T18:00:00-03:00",
-  "edition": "Tarde",
+  "publishedAt": "2026-11-27T08:00:00-03:00",
+  "edition": "Mañana",
   "articles": [
+    {
+      "id": "presupuesto-2027-diputados",
+      "category": "Economía y Congreso",
+      "title": "Diputados dio media sanción al Presupuesto 2027 con mayores fondos universitarios",
+      "dek": "La votación de madrugada incorporó cambios impulsados por la oposición. El proyecto pasa al Senado.",
+      "summary": [
+        "La Cámara baja aprobó el presupuesto en general.",
+        "El texto incorpora $11 billones para universidades nacionales.",
+        "El Senado todavía debe tratar la iniciativa."
+      ],
+      "body": [
+        "La sesión iniciada el jueves terminó durante la madrugada del viernes con la aprobación del proyecto presupuestario. La oposición consiguió modificar las partidas universitarias respecto de la propuesta oficial.",
+        "El debate también alteró disposiciones vinculadas con organismos científicos y técnicos. El texto aprobado por Diputados todavía no constituye el presupuesto definitivo."
+      ],
+      "sources": [
+        {
+          "name": "LV12",
+          "title": "El oficialismo logró aprobar el Presupuesto en Diputados",
+          "url": "https://www.lv12.com.ar/presupuesto/el-oficialismo-logro-aprobar-el-presupuesto-diputados-n207239",
+          "date": "2026-11-27"
+        },
+        {
+          "name": "Infobae",
+          "title": "Diputados aprobó el presupuesto con cambios universitarios",
+          "url": "https://www.infobae.com/politica/2026/11/27/el-gobierno-logro-aprobar-el-presupuesto-en-diputados-pero-tuvo-que-aumentar-los-fondos-para-las-universidades/",
+          "date": "2026-11-27"
+        },
+        {
+          "name": "Canal 12 Misiones",
+          "title": "Media sanción del Presupuesto 2027",
+          "url": "https://www.canal12misiones.com/nacionales/tras-una-maratonica-sesion-diputados-aprobo-el-presupuesto-2027",
+          "date": "2026-11-27"
+        }
+      ],
+      "image": null,
+      "verificationNote": "No se consultó el texto parlamentario definitivo; se omite el recuento general por discrepancias entre coberturas."
+    },
+    {
+      "id": "reforma-electoral-paso-2027",
+      "category": "Congreso",
+      "title": "El Senado aprobó la reforma electoral que suspende las PASO de 2027",
+      "dek": "La Cámara alta dio media sanción a la iniciativa durante la noche del jueves.",
+      "summary": [
+        "La votación registró 43 apoyos y 29 rechazos según Página/12.",
+        "La propuesta suspende las primarias de 2027.",
+        "Diputados deberá tratar el proyecto."
+      ],
+      "body": [
+        "El Senado aprobó el jueves por la noche el proyecto de reforma electoral. La iniciativa incluye la suspensión de las primarias nacionales del próximo año y cambios en las condiciones de elegibilidad y financiamiento electoral.",
+        "La medida todavía requiere tratamiento en Diputados. El debate previo mostró diferencias entre quienes defienden la suspensión y quienes cuestionan modificar las reglas antes de las elecciones."
+      ],
+      "sources": [
+        {
+          "name": "Página/12",
+          "title": "Sesiones simultáneas en el Congreso",
+          "url": "https://www.pagina12.com.ar/2026/11/26/superjueves-en-el-congreso-con-sesiones-simultaneas-en-diputados-y-senadores/",
+          "date": "2026-11-26"
+        },
+        {
+          "name": "Chequeado",
+          "title": "Proyectos tratados en el Congreso",
+          "url": "https://chequeado.com/el-explicador/paso-ludopatia-presupuesto-2027-y-banco-central-uno-por-uno-los-proyectos-de-ley-que-debate-hoy-el-congreso/",
+          "date": "2026-11-26"
+        },
+        {
+          "name": "El Destape",
+          "title": "Debate de la reforma electoral",
+          "url": "https://www.eldestapeweb.com/politica/milei-medidas-gobierno-vivo-arranca-semana-clave-futuro-paso-elecciones-2027-2026112651552",
+          "date": "2026-11-26"
+        }
+      ],
+      "image": null,
+      "verificationNote": "El resultado de la votación se tomó de la cobertura de Página/12 de las 20:47; las otras referencias documentan el proyecto y el debate."
+    },
+    {
+      "id": "ludopatia-tratamiento-senado",
+      "category": "Congreso y sociedad",
+      "title": "El Senado sancionó la ley de prevención de la ludopatía infantil",
+      "dek": "La iniciativa establece restricciones a la promoción de apuestas y controles para impedir el acceso de menores.",
+      "summary": [
+        "Los Andes informó una aprobación unánime.",
+        "La norma limita publicidad y patrocinios de apuestas.",
+        "La aplicación dependerá de los pasos legales y regulatorios correspondientes."
+      ],
+      "body": [
+        "El Senado completó el trámite legislativo de la iniciativa de prevención de la ludopatía infantil durante la sesión que comenzó el jueves. La propuesta había sido aprobada por Diputados en 2024.",
+        "Entre las disposiciones se encuentran restricciones publicitarias y mecanismos de comprobación de identidad y edad. Durante el debate se plantearon también objeciones técnicas y propuestas complementarias."
+      ],
+      "sources": [
+        {
+          "name": "Los Andes",
+          "title": "El Senado aprobó la ley contra la ludopatía infantil",
+          "url": "https://www.losandes.com.ar/politica/el-senado-aprobo-unanimidad-la-ley-contra-la-ludopatia-infantil-y-prohibio-la-publicidad-apuestas-n6015795",
+          "date": "2026-11-26"
+        },
+        {
+          "name": "Página/12",
+          "title": "Sesiones simultáneas en el Congreso",
+          "url": "https://www.pagina12.com.ar/2026/11/26/superjueves-en-el-congreso-con-sesiones-simultaneas-en-diputados-y-senadores/",
+          "date": "2026-11-26"
+        },
+        {
+          "name": "Chequeado",
+          "title": "Proyectos tratados en el Congreso",
+          "url": "https://chequeado.com/el-explicador/paso-ludopatia-presupuesto-2027-y-banco-central-uno-por-uno-los-proyectos-de-ley-que-debate-hoy-el-congreso/",
+          "date": "2026-11-26"
+        }
+      ],
+      "image": null,
+      "verificationNote": "La sanción fue informada por Los Andes; las otras fuentes respaldan el contexto y contenido del proyecto. No se verificó la promulgación."
+    },
     {
       "id": "reforma-carta-organica-bcra-2026",
       "category": "Economía y Congreso",
@@ -44,81 +155,7 @@
         }
       ],
       "image": null,
-      "verificationNote": "Las coberturas coinciden en la sanción y el resultado de la votación; no se consultó el texto definitivo promulgado."
-    },
-    {
-      "id": "presupuesto-2027-diputados",
-      "category": "Economía y Congreso",
-      "title": "Diputados inició el debate del Presupuesto 2027",
-      "dek": "La Cámara reunió quórum para tratar el proyecto que fija las previsiones de ingresos y gastos nacionales del próximo año.",
-      "summary": [
-        "La sesión comenzó al mediodía del jueves.",
-        "El oficialismo busca obtener media sanción del presupuesto.",
-        "El resultado final de la votación no estaba confirmado en las fuentes consultadas al corte."
-      ],
-      "body": [
-        "La Cámara de Diputados abrió una sesión especial este jueves, con el Presupuesto 2027 entre los principales asuntos del temario. La discusión se produce en el contexto de negociaciones entre el oficialismo y otros bloques.",
-        "El proyecto define previsiones fiscales y asignaciones para distintas áreas del Estado. Entre los asuntos discutidos se encuentran los recursos destinados a universidades y discapacidad. Esas cifras son propuestas y no deben interpretarse como partidas definitivamente aprobadas."
-      ],
-      "sources": [
-        {
-          "name": "TN",
-          "title": "Diputados: el Gobierno reunió quórum para debatir el Presupuesto 2027",
-          "url": "https://tn.com.ar/politica/2026/11/26/diputados-el-gobierno-reunio-quorum-para-debatir-el-presupuesto-2027-y-la-reforma-del-banco-central/",
-          "date": "2026-11-26"
-        },
-        {
-          "name": "El Destape",
-          "title": "Debate del Presupuesto 2027 en Diputados",
-          "url": "https://www.eldestapeweb.com/politica/diputados-vivo-ultimas-noticias-debate-presupuesto-2027-este-jueves-26-noviembre-20261126135116?outputType=amp",
-          "date": "2026-11-26"
-        },
-        {
-          "name": "Noticias Argentinas",
-          "title": "Presupuesto: Diputados alcanzó el quórum y comenzó una sesión",
-          "url": "https://noticiasargentinas.com/politica/presupuesto--diputados-alcanzo-el-quorum-y-comenzo-una-maratonica-sesion_a6b084f10272556b8ed7996b7?output=amp",
-          "date": "2026-11-26"
-        }
-      ],
-      "image": null,
-      "verificationNote": "La información confirma el comienzo del tratamiento. No se pudo comprobar una votación definitiva anterior a las 18:00."
-    },
-    {
-      "id": "reforma-electoral-paso-2027",
-      "category": "Congreso",
-      "title": "El Senado comenzó el tratamiento de la reforma electoral que propone suspender las PASO de 2027",
-      "dek": "La propuesta del Ejecutivo ingresó al debate de la Cámara alta en la última jornada ordinaria del período.",
-      "summary": [
-        "El proyecto plantea suspender las primarias nacionales del próximo año.",
-        "Incluye cambios en el régimen electoral y el financiamiento de campañas.",
-        "La aprobación requiere una mayoría especial de 37 votos en el Senado."
-      ],
-      "body": [
-        "El Senado inició este jueves el tratamiento de la reforma electoral impulsada por el Gobierno. La suspensión de las primarias de 2027 es uno de sus puntos centrales.",
-        "El texto también contempla modificaciones en el financiamiento de campañas y otras reglas de la competencia electoral. La aprobación en la Cámara alta sería un paso del trámite legislativo, no la sanción definitiva por sí sola."
-      ],
-      "sources": [
-        {
-          "name": "Infobae",
-          "title": "Senado, en vivo: comenzó el tratamiento de la reforma política",
-          "url": "https://www.infobae.com/politica/2026/11/26/senado-en-vivo-las-ultimas-noticias-sobre-la-suspension-de-las-paso-y-la-ley-de-ludopatia/?jw_start=%7Bseek_to_second_number%7D",
-          "date": "2026-11-26"
-        },
-        {
-          "name": "TN",
-          "title": "El Senado debate hoy la reforma política",
-          "url": "https://tn.com.ar/politica/2026/11/26/el-senado-debate-hoy-la-reforma-politica-y-el-oficialismo-negocia-los-ultimos-votos-para-suspender-las-paso/",
-          "date": "2026-11-26"
-        },
-        {
-          "name": "Chequeado",
-          "title": "Proyectos que debate el Congreso el 26 de noviembre",
-          "url": "https://chequeado.com/el-explicador/paso-ludopatia-presupuesto-2027-y-banco-central-uno-por-uno-los-proyectos-de-ley-que-debate-hoy-el-congreso/",
-          "date": "2026-11-26"
-        }
-      ],
-      "image": null,
-      "verificationNote": "Se confirmó el inicio del debate, pero no el resultado de la votación al cierre de esta edición."
+      "verificationNote": "Noticia de la edición del 26 de noviembre de 2026; sin novedad confirmada para el corte de hoy. Las coberturas coinciden en la sanción y el resultado de la votación; no se consultó el texto definitivo promulgado."
     },
     {
       "id": "produccion-industrial-octubre-2026",
@@ -155,7 +192,7 @@
         }
       ],
       "image": null,
-      "verificationNote": "Los valores corresponden a estimaciones privadas. El informe de FIEL está fechado el 25 de noviembre; no se comprobó su hora original de difusión."
+      "verificationNote": "Noticia de la edición del 26 de noviembre de 2026; sin novedad confirmada para el corte de hoy. Los valores corresponden a estimaciones privadas. El informe de FIEL está fechado el 25 de noviembre; no se comprobó su hora original de difusión."
     },
     {
       "id": "aliados-infancia-operativo-2026-11",
@@ -192,44 +229,7 @@
         }
       ],
       "image": null,
-      "verificationNote": "Las cifras son las comunicadas por autoridades y recogidas por la prensa; pueden variar a medida que avancen las investigaciones."
-    },
-    {
-      "id": "ludopatia-tratamiento-senado",
-      "category": "Congreso y sociedad",
-      "title": "El Senado incluyó en su sesión los proyectos para prevenir la ludopatía y regular las apuestas en línea",
-      "dek": "El acuerdo entre bloques contempla tratar el proyecto con media sanción y una iniciativa complementaria.",
-      "summary": [
-        "El texto original fue aprobado por Diputados en 2024.",
-        "La propuesta incluye restricciones a la publicidad del juego en línea.",
-        "Los bloques acordaron debatir también una iniciativa sobre el juego ilegal."
-      ],
-      "body": [
-        "La agenda del Senado de este jueves incluyó el tratamiento de la iniciativa de prevención de la ludopatía, tras negociaciones entre los bloques para evitar que perdiera estado parlamentario.",
-        "La iniciativa original contiene medidas para limitar la promoción de las apuestas en línea. El acuerdo político prevé además una propuesta separada para abordar aspectos reclamados por el Ejecutivo. La discusión y el acuerdo no equivalen por sí solos a una sanción."
-      ],
-      "sources": [
-        {
-          "name": "TN",
-          "title": "Acuerdo entre oficialismo y peronismo por la Ley de Prevención de Ludopatía",
-          "url": "https://tn.com.ar/politica/2026/11/26/el-senado-sancionara-la-ley-de-prevencion-de-ludopatia-tras-un-acuerdo-entre-el-oficialismo-y-el-peronismo/",
-          "date": "2026-11-26"
-        },
-        {
-          "name": "Infobae",
-          "title": "El Senado se encamina a aprobar la ley de ludopatía",
-          "url": "https://www.infobae.com/politica/2026/11/26/el-senado-se-encamina-a-aprobar-este-jueves-la-ley-de-ludopatia-tras-cerrar-un-acuerdo-con-la-oposicion/",
-          "date": "2026-11-26"
-        },
-        {
-          "name": "Chequeado",
-          "title": "Qué dice el proyecto de ley de ludopatía",
-          "url": "https://chequeado.com/nota/apuestas-online-que-dice-el-proyecto-de-ley-de-ludopatia-y-por-que-la-iglesia-pidio-al-congreso-no-dejarlo-caer/",
-          "date": "2026-11-26"
-        }
-      ],
-      "image": null,
-      "verificationNote": "Se verificó su inclusión en la agenda y el acuerdo político. No se comprobó la sanción definitiva antes de las 18:00."
+      "verificationNote": "Noticia de la edición del 26 de noviembre de 2026; sin novedad confirmada para el corte de hoy. Las cifras son las comunicadas por autoridades y recogidas por la prensa; pueden variar a medida que avancen las investigaciones."
     },
     {
       "id": "canje-tesoro-bcra-noviembre-2026",
@@ -260,7 +260,7 @@
         }
       ],
       "image": null,
-      "verificationNote": "Se consultaron dos referencias periodísticas coincidentes; no se verificaron de manera directa todas las condiciones financieras de la resolución."
+      "verificationNote": "Noticia de la edición del 26 de noviembre de 2026; sin novedad confirmada para el corte de hoy. Se consultaron dos referencias periodísticas coincidentes; no se verificaron de manera directa todas las condiciones financieras de la resolución."
     },
     {
       "id": "milei-alliana-paraguay",
@@ -296,44 +296,8 @@
           "date": "2026-11-26"
         }
       ],
-      "image": null
-    },
-    {
-      "id": "alertas-smn-2026-11-26",
-      "category": "Ambiente",
-      "title": "El Servicio Meteorológico Nacional emitió alertas por tormentas y vientos en siete provincias",
-      "dek": "Los avisos del jueves abarcan sectores del noroeste, Cuyo y el extremo sur del país.",
-      "summary": [
-        "Se anunciaron tormentas en sectores de Jujuy, Salta, La Rioja, San Juan y Mendoza.",
-        "También se difundieron avisos por viento en Santa Cruz y Tierra del Fuego.",
-        "Las alertas describen condiciones previstas, no daños ya ocurridos."
-      ],
-      "body": [
-        "El Servicio Meteorológico Nacional emitió avisos por tormentas y vientos para distintos sectores del territorio argentino. Las coberturas coinciden en que las tormentas alcanzan áreas del noroeste y Cuyo y que los vientos afectan zonas de la Patagonia austral.",
-        "El alcance territorial y la intensidad pueden variar durante el día. Para conocer la situación vigente, conviene revisar los avisos oficiales actualizados y las recomendaciones de las autoridades locales."
-      ],
-      "sources": [
-        {
-          "name": "La Nación",
-          "title": "Alertas por tormentas y vientos fuertes para este jueves",
-          "url": "https://www.lanacion.com.ar/sociedad/hay-alerta-naranja-y-amarilla-por-tormentas-y-vientos-fuertes-para-este-jueves-26-de-noviembre-las-nid26112026/",
-          "date": "2026-11-26"
-        },
-        {
-          "name": "Noticias Argentinas",
-          "title": "Cinco provincias bajo aviso por tormentas",
-          "url": "https://noticiasargentinas.com/sociedad/alerta-amarilla--cinco-provincias-bajo-aviso-por-tormentas_a6b0818e9272556b8ed75ef37",
-          "date": "2026-11-26"
-        },
-        {
-          "name": "C5N",
-          "title": "Alertas por tormentas y vientos del 26 de noviembre",
-          "url": "https://www.c5n.com/sociedad/clima-alertas-pronostico-smn-26-noviembre-2026",
-          "date": "2026-11-26"
-        }
-      ],
       "image": null,
-      "verificationNote": "Los avisos corresponden al jueves 26 y pueden haber cambiado; no se confirmó un nivel uniforme para todas las zonas."
+      "verificationNote": "Noticia de la edición del 26 de noviembre de 2026; sin novedad confirmada para el corte de hoy. "
     },
     {
       "id": "paro-santander-diciembre-2026",
@@ -370,7 +334,32 @@
         }
       ],
       "image": null,
-      "verificationNote": "Las referencias recogen el anuncio gremial; no se comprobó una respuesta independiente de la empresa ni el cumplimiento futuro de la medida."
+      "verificationNote": "Noticia de la edición del 26 de noviembre de 2026; sin novedad confirmada para el corte de hoy. Las referencias recogen el anuncio gremial; no se comprobó una respuesta independiente de la empresa ni el cumplimiento futuro de la medida."
+    },
+    {
+      "id": "pronostico-comodoro-2026-11-27",
+      "category": "Ambiente",
+      "title": "Prevén calor y ráfagas de viento en Comodoro Rivadavia y Rada Tilly",
+      "dek": "El pronóstico difundido el jueves por la noche anticipa una máxima de 29 grados para el viernes.",
+      "summary": [
+        "Se prevé una jornada parcialmente nublada.",
+        "Las ráfagas podrían acercarse a 59 km/h durante la tarde.",
+        "Se trata de un pronóstico, no de condiciones ya observadas."
+      ],
+      "body": [
+        "ADNSUR difundió a las 23:47 del jueves el pronóstico del Servicio Meteorológico Nacional para Comodoro Rivadavia y Rada Tilly. La previsión anticipa temperaturas elevadas y viento durante el viernes.",
+        "Las condiciones pueden cambiar durante la jornada. Es recomendable consultar los avisos oficiales antes de realizar actividades al aire libre."
+      ],
+      "sources": [
+        {
+          "name": "ADNSUR",
+          "title": "Viernes muy caluroso y con algunas nubes en Comodoro y Rada Tilly",
+          "url": "https://www.adnsur.com.ar/sociedad/viernes-muy-caluroso-y-con-algunas-nubes-en-comodoro-y-rada-tilly_a6b08eae71af8333314b1ac6d",
+          "date": "2026-11-26"
+        }
+      ],
+      "image": null,
+      "verificationNote": "Una referencia periodística atribuye el pronóstico al SMN; no se obtuvo una segunda confirmación independiente."
     }
   ]
 }
