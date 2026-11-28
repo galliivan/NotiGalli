@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "publishedAt": "2026-11-27T18:00:00-03:00",
-  "edition": "Tarde",
+  "publishedAt": "2026-11-28T08:00:00-03:00",
+  "edition": "Mañana",
   "articles": [
     {
       "id": "presupuesto-2027-diputados",
@@ -38,7 +38,7 @@
         }
       ],
       "image": null,
-      "verificationNote": "Conservada de la edición del 27 de noviembre de 2026, 08:00; sin novedad confirmada para el corte de las 18:00. No se consultó el texto parlamentario definitivo; se omite el recuento general por discrepancias entre coberturas."
+      "verificationNote": "Noticia anterior, conservada de la edición del 27 de noviembre de 2026 a las 18:00; sin novedad confirmada al corte del 28 de noviembre a las 08:00. Conservada de la edición del 27 de noviembre de 2026, 08:00; sin novedad confirmada para el corte de las 18:00. No se consultó el texto parlamentario definitivo; se omite el recuento general por discrepancias entre coberturas."
     },
     {
       "id": "reforma-electoral-paso-2027",
@@ -75,7 +75,7 @@
         }
       ],
       "image": null,
-      "verificationNote": "Conservada de la edición del 27 de noviembre de 2026, 08:00; sin novedad confirmada para el corte de las 18:00. El resultado de la votación se tomó de la cobertura de Página/12 de las 20:47; las otras referencias documentan el proyecto y el debate."
+      "verificationNote": "Noticia anterior, conservada de la edición del 27 de noviembre de 2026 a las 18:00; sin novedad confirmada al corte del 28 de noviembre a las 08:00. Conservada de la edición del 27 de noviembre de 2026, 08:00; sin novedad confirmada para el corte de las 18:00. El resultado de la votación se tomó de la cobertura de Página/12 de las 20:47; las otras referencias documentan el proyecto y el debate."
     },
     {
       "id": "actividad-economica-octubre-2026",
@@ -88,7 +88,7 @@
         "Los resultados no reemplazan la medición oficial del INDEC."
       ],
       "body": [
-        "Las estimaciones privadas difundidas en la prensa este viernes indican que la actividad económica habría vuelto a disminuir en octubre. Los cálculos de Analytica y Orlando Ferreres coinciden en una variación mensual negativa de 0,3%.",
+        "Las estimaciones privadas difundidas en la prensa el 27 de noviembre indican que la actividad económica habría vuelto a disminuir en octubre. Los cálculos de Analytica y Orlando Ferreres coinciden en una variación mensual negativa de 0,3%.",
         "Las diferencias entre sectores siguen siendo importantes: la construcción presenta señales de debilidad, mientras la producción energética muestra un mejor desempeño. Los indicadores preliminares pueden revisarse cuando se conozcan nuevos datos."
       ],
       "sources": [
@@ -112,7 +112,7 @@
         }
       ],
       "image": null,
-      "verificationNote": "Las coberturas de las 09:18 y 13:52 respaldan la información; no se determinó la hora de difusión original de cada informe privado."
+      "verificationNote": "Noticia anterior, conservada de la edición del 27 de noviembre de 2026 a las 18:00; sin novedad confirmada al corte del 28 de noviembre a las 08:00. Las coberturas de las 09:18 y 13:52 respaldan la información; no se determinó la hora de difusión original de cada informe privado."
     },
     {
       "id": "riesgo-pais-2026-11-27",
@@ -125,7 +125,7 @@
         "La caída del indicador no garantiza una recuperación sostenida."
       ],
       "body": [
-        "La prima de riesgo de la deuda argentina retrocedió este viernes. Radio Rafaela informó a las 11:21 un valor de 956 puntos básicos; El Doce registró 960 a las 17:42.",
+        "La prima de riesgo de la deuda argentina retrocedió el 27 de noviembre. Radio Rafaela informó a las 11:21 un valor de 956 puntos básicos; El Doce registró 960 a las 17:42.",
         "El movimiento coincidió con una mejora de los títulos públicos y se produjo después de las votaciones legislativas del jueves. La evolución del indicador incide en las condiciones de acceso al crédito externo."
       ],
       "sources": [
@@ -149,7 +149,7 @@
         }
       ],
       "image": null,
-      "verificationNote": "Las cifras son registros de distintos momentos de la rueda, no un cierre oficial verificado directamente con JP Morgan."
+      "verificationNote": "Noticia anterior, conservada de la edición del 27 de noviembre de 2026 a las 18:00; sin novedad confirmada al corte del 28 de noviembre a las 08:00. Las cifras son registros de distintos momentos de la rueda, no un cierre oficial verificado directamente con JP Morgan."
     },
     {
       "id": "ludopatia-tratamiento-senado",
@@ -186,7 +186,7 @@
         }
       ],
       "image": null,
-      "verificationNote": "Conservada de la edición del 27 de noviembre de 2026, 08:00; sin novedad confirmada para el corte de las 18:00. La sanción fue informada por Los Andes; las otras fuentes respaldan el contexto y contenido del proyecto. No se verificó la promulgación."
+      "verificationNote": "Noticia anterior, conservada de la edición del 27 de noviembre de 2026 a las 18:00; sin novedad confirmada al corte del 28 de noviembre a las 08:00. Conservada de la edición del 27 de noviembre de 2026, 08:00; sin novedad confirmada para el corte de las 18:00. La sanción fue informada por Los Andes; las otras fuentes respaldan el contexto y contenido del proyecto. No se verificó la promulgación."
     },
     {
       "id": "reforma-carta-organica-bcra-2026",
@@ -199,7 +199,7 @@
         "La sanción no equivale todavía a su entrada en vigencia."
       ],
       "body": [
-        "La Cámara de Diputados aprobó este jueves la versión de la reforma de la Carta Orgánica del Banco Central que había modificado el Senado. Las coberturas coinciden en que la votación registró 141 apoyos y 99 abstenciones.",
+        "La Cámara de Diputados aprobó el 26 de noviembre la versión de la reforma de la Carta Orgánica del Banco Central que había modificado el Senado. Las coberturas coinciden en que la votación registró 141 apoyos y 99 abstenciones.",
         "La iniciativa establece restricciones para el financiamiento monetario del Tesoro y orienta la misión del organismo hacia la preservación del valor de la moneda. Su aplicación efectiva deberá seguir los pasos legales posteriores a la sanción."
       ],
       "sources": [
@@ -229,13 +229,44 @@
         }
       ],
       "image": null,
-      "verificationNote": "Conservada de la edición del 27 de noviembre de 2026, 08:00; sin novedad confirmada para el corte de las 18:00. Noticia de la edición del 26 de noviembre de 2026; sin novedad confirmada para el corte de hoy. Las coberturas coinciden en la sanción y el resultado de la votación; no se consultó el texto definitivo promulgado."
+      "verificationNote": "Noticia anterior, conservada de la edición del 27 de noviembre de 2026 a las 18:00; sin novedad confirmada al corte del 28 de noviembre a las 08:00. Conservada de la edición del 27 de noviembre de 2026, 08:00; sin novedad confirmada para el corte de las 18:00. Noticia de la edición del 26 de noviembre de 2026; sin novedad confirmada para el corte de hoy. Las coberturas coinciden en la sanción y el resultado de la votación; no se consultó el texto definitivo promulgado."
+    },
+    {
+      "id": "alertas-mendoza-neuquen-2026-11-28",
+      "category": "Ambiente y salud",
+      "title": "Alertas por tormentas en Mendoza y calor extremo en Neuquén y el Alto Valle",
+      "dek": "Los pronósticos difundidos antes de las 08:00 anticipan fenómenos diferentes en Cuyo y el norte patagónico.",
+      "summary": [
+        "MDZ informó una alerta amarilla por tormentas en sectores de Mendoza.",
+        "ADNSUR informó una advertencia por temperaturas extremas en Neuquén y el Alto Valle.",
+        "Se trata de pronósticos, no de daños registrados."
+      ],
+      "body": [
+        "Según MDZ, el Servicio Meteorológico Nacional advirtió sobre tormentas en sectores de Luján, Las Heras, el Valle de Uco y el sur mendocino. El pronóstico contempla acumulados de 20 a 40 milímetros, con posibles valores superiores en puntos aislados.",
+        "ADNSUR informó que continúa una alerta por calor en Neuquén y el Alto Valle. La Autoridad Interjurisdiccional de Cuencas prevé una máxima de 35 grados en la capital neuquina para el sábado. Las condiciones pueden cambiar durante la jornada."
+      ],
+      "sources": [
+        {
+          "name": "MDZ",
+          "title": "Alerta por lluvias y tormentas: qué zonas de Mendoza se verán afectadas, según el SMN",
+          "url": "https://www.mdzol.com/sociedad/2026/11/28/alerta-por-lluvias-y-tormentas-que-zonas-de-mendoza-se-veran-afectadas-segun-el-smn-1998481.html",
+          "date": "2026-11-28"
+        },
+        {
+          "name": "ADNSUR",
+          "title": "Alerta por calor extremo en Neuquén: el fin de semana tendrá temperaturas de hasta 36 grados",
+          "url": "https://www.adnsur.com.ar/sociedad/clima/alerta-por-calor-extremo-en-neuquen--el-fin-de-semana-tendra-temperaturas-de-hasta-36-grados_a6b0aadb80c00c3cae3e6057b",
+          "date": "2026-11-28"
+        }
+      ],
+      "image": null,
+      "verificationNote": "Coberturas publicadas a las 07:02 y 07:38 respectivamente. Cada alerta regional cuenta con una cobertura específica; no se verificaron directamente los boletines originales ni la hora inicial de emisión."
     },
     {
       "id": "aliados-infancia-operativo-2026-11",
       "category": "Justicia",
       "title": "Un operativo internacional contra la explotación sexual infantil registró 35 detenciones en Argentina",
-      "dek": "El balance difundido este jueves comprende una investigación coordinada entre 16 países.",
+      "dek": "El balance difundido el 26 de noviembre comprende una investigación coordinada entre 16 países.",
       "summary": [
         "Las autoridades informaron 35 detenciones en territorio argentino.",
         "El operativo internacional incluyó procedimientos en varias provincias.",
@@ -266,7 +297,7 @@
         }
       ],
       "image": null,
-      "verificationNote": "Conservada de la edición del 27 de noviembre de 2026, 08:00; sin novedad confirmada para el corte de las 18:00. Noticia de la edición del 26 de noviembre de 2026; sin novedad confirmada para el corte de hoy. Las cifras son las comunicadas por autoridades y recogidas por la prensa; pueden variar a medida que avancen las investigaciones."
+      "verificationNote": "Noticia anterior, conservada de la edición del 27 de noviembre de 2026 a las 18:00; sin novedad confirmada al corte del 28 de noviembre a las 08:00. Conservada de la edición del 27 de noviembre de 2026, 08:00; sin novedad confirmada para el corte de las 18:00. Noticia de la edición del 26 de noviembre de 2026; sin novedad confirmada para el corte de hoy. Las cifras son las comunicadas por autoridades y recogidas por la prensa; pueden variar a medida que avancen las investigaciones."
     },
     {
       "id": "lugones-medicamentos-provincias-2026-11",
@@ -291,32 +322,7 @@
         }
       ],
       "image": null,
-      "verificationNote": "Una fuente periodística; no se confirmó la hora exacta de las declaraciones ni una segunda cobertura independiente."
-    },
-    {
-      "id": "corrientes-empleadores-2026-11",
-      "category": "Trabajo y economía",
-      "title": "Un relevamiento privado registró 812 empleadores menos en Corrientes entre 2023 y 2026",
-      "dek": "Economis difundió un análisis del Estudio Broda basado en registros de riesgos del trabajo.",
-      "summary": [
-        "El período abarca noviembre de 2023 a julio de 2026.",
-        "La reducción informada equivale al 12,3% del padrón provincial.",
-        "Las otras tres provincias del NEA también registraron retrocesos."
-      ],
-      "body": [
-        "Un relevamiento privado divulgado este viernes por Economis calculó que Corrientes perdió 812 empleadores registrados durante el período analizado. El estudio utiliza información de la Superintendencia de Riesgos del Trabajo.",
-        "La publicación también describe reducciones en Chaco, Misiones y Formosa. La variación del número de empleadores no equivale necesariamente al número de empresas definitivamente cerradas ni al total de empleos perdidos."
-      ],
-      "sources": [
-        {
-          "name": "Economis",
-          "title": "Corrientes perdió 812 empresas empleadoras desde la llegada de Milei",
-          "url": "https://economis.com.ar/corrientes-perdio-812-empresas-empleadoras-desde-la-llegada-de-milei/",
-          "date": "2026-11-27"
-        }
-      ],
-      "image": null,
-      "verificationNote": "Una cobertura periodística; no se consultó el informe original ni se confirmó la hora de difusión."
+      "verificationNote": "Noticia anterior, conservada de la edición del 27 de noviembre de 2026 a las 18:00; sin novedad confirmada al corte del 28 de noviembre a las 08:00. Una fuente periodística; no se confirmó la hora exacta de las declaraciones ni una segunda cobertura independiente."
     },
     {
       "id": "paro-santander-diciembre-2026",
@@ -353,7 +359,7 @@
         }
       ],
       "image": null,
-      "verificationNote": "Conservada de la edición del 27 de noviembre de 2026, 08:00; sin novedad confirmada para el corte de las 18:00. Noticia de la edición del 26 de noviembre de 2026; sin novedad confirmada para el corte de hoy. Las referencias recogen el anuncio gremial; no se comprobó una respuesta independiente de la empresa ni el cumplimiento futuro de la medida."
+      "verificationNote": "Noticia anterior, conservada de la edición del 27 de noviembre de 2026 a las 18:00; sin novedad confirmada al corte del 28 de noviembre a las 08:00. Conservada de la edición del 27 de noviembre de 2026, 08:00; sin novedad confirmada para el corte de las 18:00. Noticia de la edición del 26 de noviembre de 2026; sin novedad confirmada para el corte de hoy. Las referencias recogen el anuncio gremial; no se comprobó una respuesta independiente de la empresa ni el cumplimiento futuro de la medida."
     }
   ]
 }
